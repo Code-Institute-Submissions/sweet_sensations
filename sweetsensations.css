@@ -1,0 +1,98 @@
+.logo {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    /*padding: 25px;*/
+    font-family: 'Sacramento', cursive;
+    color: #1F130F;
+    text-align: center;
+    font-size: 4em!important;
+    font-weight: 300;
+    text-shadow: 2px 4px 3px #feb3cd;
+}
+
+ul,
+menu,
+dir {
+
+    margin-block-start: 1em;
+    margin-inline-start: 7em;
+
+}
+
+.navbar-toggler {
+    background-color: #1F130F;
+    color: red;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #1F130F;
+    margin-left: 4em;
+
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1F130F;
+    opacity: .7;
+}
+
+
+.bg-info {
+    background-color: white!important;
+
+}
+
+
+
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: #fff2f6;
+    color: #88898A;
+    text-align: center;
+    float: center;
+    padding: 10px;
+    margin-top: 45px;
+}
+
+
+.social-links {
+    padding: 15px;
+    margin-top: 25px;
+
+}
+
+
+
+.list-inline-item {
+    width: 32px;
+    height: 32px;
+    padding: 10px 0;
+    margin-inline-start: 0!important;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 9px;
+    texrt-align: center;
+    color: #88898A;
+    background-color: #feb3cd;
+}
+
+.social {
+    color: #88898A;
+
+}
+
+
+
+ul.navbar-nav.list-inline {
+    float: right;
+}
+
+
+
+
+
