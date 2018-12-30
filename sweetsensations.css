@@ -1,7 +1,6 @@
 .logo {
     margin: 0 auto;
     padding-bottom: 40px;
-    /*padding: 25px;*/
     font-family: 'Sacramento', cursive;
     color: #1F130F;
     text-align: center;
@@ -9,6 +8,40 @@
     font-weight: 300;
     text-shadow: 2px 4px 3px #feb3cd;
 }
+
+
+.mainimage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    overerflow: hidden;
+    margin: 0 auto;
+
+}
+
+.link_images {
+    width: 100%;
+    height: 80%;
+    overerflow: hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+
+
+.tint {
+    opacity: 0.5;
+}
+
+.tint:hover {
+    opacity: 1;
+    transition: opacity 1s, background 1s;
+
+}
+
+
+
 
 ul,
 menu,
@@ -43,11 +76,52 @@ dir {
 
 }
 
+.blockquote {
+    color: #88898A;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em
+}
+
+.blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+
+.blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float: right;
+    font-size: 6em;
+    line-height: 1;
+    right: 0;
+    bottom: -0.5em;
+    content: "\201D";
+}
 
 
 
 
 
+
+.headings {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-weight: 300;
+    color: #1F130F;
+    font-size: 60px;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-shadow: 2px 4px 3px #feb3cd;
+}
 
 .footer {
     width: 100%;
@@ -91,6 +165,30 @@ dir {
 ul.navbar-nav.list-inline {
     float: right;
 }
+
+
+
+
+.link_text {
+    text-align: center;
+    margin: 5px;
+    text-shadow: 2px 4px 3px #feb3cd;
+    font-size: 1.5em;
+}
+
+
+
+.heart_pink {
+    color: #feb3cd;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
 
 
 
