@@ -284,6 +284,22 @@ margin-top: 10px;
 /*--------------------Menu-------------------------------*/
 
 
+ul,
+menu,
+dir {
+
+    margin-block-start: 1em;
+    margin-inline-start: 7em;
+
+}
+
+.menu {
+   font-family: 'Indie Flower', cursive;
+    font-sixe: 2em;
+    background-color: #FFF2F6;
+}
+
+
 
 
 
