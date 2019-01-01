@@ -301,7 +301,15 @@ dir {
 
 
 
+#link {
+    color: #ea2168;
+}
 
+#link:hover {
+    color: #ea2168;
+    font-weight: 800;
+    /*background-color: black;*/
+}
 
 /*--------------------END-------------------------------*/
 
