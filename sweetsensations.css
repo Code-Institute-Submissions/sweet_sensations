@@ -1,3 +1,19 @@
+body {}
+
+
+@media (max-width:767px) {
+    body {}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {}
+}
+
+@media (min-width: 992px) and (max-width: 1800px) {
+    body {}
+}
+
+
 /*-------------------------navbar-------------------*/
 
 .logo {
@@ -12,20 +28,23 @@
 }
 
 
-ul.navbar-nav.list-inline {
-    float: right;
-}
+/*ul.navbar-nav.list-inline {*/
 
+/*    float: right;*/
 
+/*}*/
 
-ul,
-menu,
-dir {
+/*ul,*/
 
-    margin-block-start: 1em;
-    margin-inline-start: 7em;
+/*menu,*/
 
-}
+/*dir {*/
+
+/*    margin-block-start: 1em;*/
+
+/*    margin-inline-start: 7em;*/
+
+/*}*/
 
 .navbar-toggler {
     background-color: #1F130F;
@@ -40,6 +59,17 @@ dir {
 }
 
 
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-dark .navbar-nav .nav-link {
+        margin-left: 0em!important;
+
+    }
+}
+
+
+
+
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #1F130F;
     opacity: .7;
@@ -50,10 +80,7 @@ dir {
 
 /*-------------------------END-------------------*/
 
-
-
 /*--------------------home page----------------*/
-
 
 .mainimage {
     width: 100%;
@@ -158,7 +185,6 @@ dir {
 
 /*--------------------END----------------*/
 
-
 /*--------------------footer----------------*/
 
 .footer {
@@ -203,15 +229,14 @@ dir {
 
 /*--------------------END----------------*/
 
-
-
 /*-------------------contact page -----------------------*/
+
 .contact_img {
 
-width: 90%;
-height: 90%;
-float: right;
-margin-top: 10px;
+    width: 90%;
+    height: 90%;
+    float: right;
+    margin-top: 10px;
 
 
 }
@@ -228,8 +253,6 @@ margin-top: 10px;
 
 
 /*--------------------END-------------------------------*/
-
-
 
 /*--------------------Gallery Page-------------------------------*/
 
@@ -264,25 +287,40 @@ margin-top: 10px;
 
 /*--------------------END-------------------------------*/
 
-
-
 /*-------------------My Story-------------------------------*/
 
 .story_img {
-width: 300px;
-height: 300px;
-float: right;
-margin-top: 10px;
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: 10px;
 
 
 }
 
+@media (max-width:767px) {
+    .story_img {
+        margin-right: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+
+.mystory {}
+
+@media (max-width:767px) {
+    .mystory {
+        padding-left: 55px;
+    }
+}
+
+
+
+
 
 /*--------------------END-------------------------------*/
 
-
 /*--------------------Menu-------------------------------*/
-
 
 ul,
 menu,
@@ -294,7 +332,7 @@ dir {
 }
 
 .menu {
-   font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower', cursive;
     font-sixe: 2em;
     background-color: #FFF2F6;
 }
@@ -312,7 +350,3 @@ dir {
 }
 
 /*--------------------END-------------------------------*/
-
-
-
-
