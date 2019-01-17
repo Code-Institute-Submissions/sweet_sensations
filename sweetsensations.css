@@ -1,18 +1,3 @@
-body {}
-
-
-@media (max-width:767px) {
-    body {}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    body {}
-}
-
-@media (min-width: 992px) and (max-width: 1800px) {
-    body {}
-}
-
 
 /*-------------------------navbar-------------------*/
 
@@ -28,26 +13,9 @@ body {}
 }
 
 
-/*ul.navbar-nav.list-inline {*/
-
-/*    float: right;*/
-
-/*}*/
-
-/*ul,*/
-
-/*menu,*/
-
-/*dir {*/
-
-/*    margin-block-start: 1em;*/
-
-/*    margin-inline-start: 7em;*/
-
-/*}*/
 
 .navbar-toggler {
-    background-color: #1F130F;
+    background-color: #FEB3CD;
     color: red;
 }
 
@@ -77,8 +45,6 @@ body {}
 
 
 
-
-/*-------------------------END-------------------*/
 
 /*--------------------home page----------------*/
 
@@ -183,7 +149,149 @@ body {}
     text-shadow: 2px 4px 3px #feb3cd;
 }
 
-/*--------------------END----------------*/
+
+
+/*-------------------contact page -----------------------*/
+
+
+
+@media (max-width:767px) {
+    .contact_column {
+       margin-left: 10px;
+       float: left;
+    }
+}
+
+
+
+.contact_img {
+
+    width: 90%;
+    height: 90%;
+    float: right;
+    margin-top: 10px;
+
+
+}
+
+
+
+@media (max-width:767px) {
+    .contact_img {
+       margin-left: 10px;
+       float: left;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact_img {
+
+    }
+}
+
+
+
+
+.coltext {
+
+    font-size: 20px;
+    text-align: left;
+
+
+}
+
+
+
+/*--------------------Gallery Page-------------------------------*/
+
+.prices {
+
+    font-style: italic;
+}
+
+
+.gallery {
+
+    width: 100%;
+    height: 80%;
+    overerflow: hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+
+
+.gallery_description {
+    text-align: center;
+    margin: 5px;
+    text-shadow: 2px 4px 3px #feb3cd;
+    font-size: 1.5em;
+
+}
+
+
+/
+
+/*-------------------My Story-------------------------------*/
+
+.story_img {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: 10px;
+
+
+}
+
+@media (max-width:767px) {
+    .story_img {
+        margin-right: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+
+.mystory {}
+
+@media (max-width:767px) {
+    .mystory {
+        padding-left: 55px;
+    }
+}
+
+
+
+/*--------------------Menu-------------------------------*/
+
+ul,
+menu,
+dir {
+
+    margin-block-start: 1em;
+    margin-inline-start: 7em;
+
+}
+
+.menu {
+    font-family: 'Indie Flower', cursive;
+    font-sixe: 2em;
+    background-color: #FFF2F6;
+}
+
+
+
+#link {
+    color: #ea2168;
+}
+
+#link:hover {
+    color: #ea2168;
+    font-weight: 800;
+
+}
+
+
 
 /*--------------------footer----------------*/
 
@@ -223,161 +331,3 @@ body {}
     color: #88898A;
 
 }
-
-
-
-
-/*--------------------END----------------*/
-
-/*-------------------contact page -----------------------*/
-
-.contact_column {
-    
-}
-
-@media (max-width:767px) {
-    .contact_column {
-       margin-left: 10px;
-       float: left;
-    }
-}
-
-
-
-.contact_img {
-
-    width: 90%;
-    height: 90%;
-    float: right;
-    margin-top: 10px;
-
-
-}
-
-
-
-@media (max-width:767px) {
-    .contact_img {
-       margin-left: 10px;
-       float: left;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .contact_img {
-         /*margin-left: 10px;*/
-    }
-}
-
-
-
-
-.coltext {
-
-    font-size: 20px;
-    text-align: left;
-
-
-}
-
-
-
-
-/*--------------------END-------------------------------*/
-
-/*--------------------Gallery Page-------------------------------*/
-
-.prices {
-
-    font-style: italic;
-}
-
-
-.gallery {
-
-    width: 100%;
-    height: 80%;
-    overerflow: hidden;
-    margin: 0 auto;
-    margin-top: 10px;
-
-}
-
-
-
-.gallery_description {
-    text-align: center;
-    margin: 5px;
-    text-shadow: 2px 4px 3px #feb3cd;
-    font-size: 1.5em;
-
-}
-
-
-
-
-/*--------------------END-------------------------------*/
-
-/*-------------------My Story-------------------------------*/
-
-.story_img {
-    width: 300px;
-    height: 300px;
-    float: right;
-    margin-top: 10px;
-
-
-}
-
-@media (max-width:767px) {
-    .story_img {
-        margin-right: 15px;
-        padding-bottom: 10px;
-    }
-}
-
-
-.mystory {}
-
-@media (max-width:767px) {
-    .mystory {
-        padding-left: 55px;
-    }
-}
-
-
-
-
-
-/*--------------------END-------------------------------*/
-
-/*--------------------Menu-------------------------------*/
-
-ul,
-menu,
-dir {
-
-    margin-block-start: 1em;
-    margin-inline-start: 7em;
-
-}
-
-.menu {
-    font-family: 'Indie Flower', cursive;
-    font-sixe: 2em;
-    background-color: #FFF2F6;
-}
-
-
-
-#link {
-    color: #ea2168;
-}
-
-#link:hover {
-    color: #ea2168;
-    font-weight: 800;
-    /*background-color: black;*/
-}
-
-/*--------------------END-------------------------------*/
