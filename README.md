@@ -55,7 +55,7 @@ The site was tested on 21" monitors, 15" and 13" laptop screens and on the follo
 
 # Deployment
 
-The site is hosted on github pages.
+The site is hosted on github pages (https://katiemodonnell.github.io/sweet_sensations/).
 
 It is deployed from the master branch.
 
